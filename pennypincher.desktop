@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=Nvidia Power Setting
+Type=Application
+Exec=/opt/instinctual/pennypincher/pennypincher.sh
