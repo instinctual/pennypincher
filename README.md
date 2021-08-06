@@ -9,3 +9,5 @@ Unzip.
 Run the install ``sudo ./install.sh``
 
 That is all.
+
+Brought to you by http://instinctual.la
