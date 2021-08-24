@@ -1,5 +1,6 @@
 [Unit]
 Description=INS PennyPincher
+After=graphical.target
 
 [Service]
 Type=oneshot
