@@ -1,12 +1,9 @@
 [Unit]
 Description=INS PennyPincher
-After=graphical.target
 
 [Service]
 Type=oneshot
-Environment="DISPLAY=:0.0"
 ExecStart=/usr/sbin/tuned-adm profile balanced
-ExecStart=/usr/bin/nvidia-settings -a "[gpu:0]/GpuPowerMizerMode=0"
 
 [Install]
 WantedBy=multi-user.target
